@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{18B1B012-85E0-E337-7112-87CC344C7882}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_0;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Begin.cs" />
+     <Compile Include="Assets\Instruction\InteractEventHandler.cs" />
+     <Compile Include="Assets\Instruction\InteractEventListener.cs" />
+     <Compile Include="Assets\Instruction\ViewInstructionListenter.cs" />
+     <Compile Include="Assets\ObjectData\Prefab\CameraTargeting.cs" />
+     <Compile Include="Assets\ObjectData\Prefab\HighlightableObject.cs" />
+     <Compile Include="Assets\ObjectData\Prefab\HighlightingEffect.cs" />
+     <Compile Include="Assets\Realtime Reflections\Scripts\PlanarRealtimeReflection.cs" />
+     <Compile Include="Assets\Realtime Reflections\Scripts\RealtimeReflections.cs" />
+     <Compile Include="Assets\Script\AssetBundleScripts\BundleManager.cs" />
+     <Compile Include="Assets\Script\Audio\BackgroundSource.cs" />
+     <Compile Include="Assets\Script\Audio\GioiThieuBia.cs" />
+     <Compile Include="Assets\Script\Audio\IntroduceSound.cs" />
+     <Compile Include="Assets\Script\Audio\MoTaBia.cs" />
+     <Compile Include="Assets\Script\Audio\MoTaTauCa.cs" />
+     <Compile Include="Assets\Script\Audio\MoTaTauChien.cs" />
+     <Compile Include="Assets\Script\Audio\Sound1.cs" />
+     <Compile Include="Assets\Script\Audio\Sound2.cs" />
+     <Compile Include="Assets\Script\Audio\Sound3.cs" />
+     <Compile Include="Assets\Script\Audio\Sound4.cs" />
+     <Compile Include="Assets\Script\Audio\Sound5.cs" />
+     <Compile Include="Assets\Script\Audio\TamBiet.cs" />
+     <Compile Include="Assets\Script\EventManager.cs" />
+     <Compile Include="Assets\Script\Loader.cs" />
+     <Compile Include="Assets\Script\ObjectRotator.cs" />
+     <Compile Include="Assets\Script\ObjectsInteract\BiaChuQuyen.cs" />
+     <Compile Include="Assets\Script\ObjectsInteract\IslandStar.cs" />
+     <Compile Include="Assets\Script\ObjectsInteract\Item.cs" />
+     <Compile Include="Assets\Script\ObjectsInteract\Object3D.cs" />
+     <Compile Include="Assets\Script\ObjectsInteract\Picture.cs" />
+     <Compile Include="Assets\Script\ObjectsInteract\SaBan.cs" />
+     <Compile Include="Assets\Script\SwitchScreen.cs" />
+     <Compile Include="Assets\Script\Ultilities\Md5Ultility.cs" />
+     <Compile Include="Assets\Script\View2D1.cs" />
+     <Compile Include="Assets\Script\View3D.cs" />
+     <Compile Include="Assets\Script\ViewInstruction.cs" />
+     <Compile Include="Assets\Script\ViewSaBan.cs" />
+     <Compile Include="Assets\Script\clicktoview.cs" />
+     <Compile Include="Assets\Thoat.cs" />
+     <Compile Include="Assets\ThoatUngDung.cs" />
+     <Compile Include="Assets\Tuan\Script\AICharacterControl.cs" />
+     <Compile Include="Assets\Tuan\Script\MoveCharator.cs" />
+     <Compile Include="Assets\Tuan\Script\PathManager.cs" />
+     <Compile Include="Assets\Tuan\Script\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\Tuan\Script\WaypointManager.cs" />
+     <Compile Include="Assets\View2D\View2dManager.cs" />
+     <None Include="Assets\Anh Dao\Bãi đá Nam\BaiDaNam.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\NhaNuocPhongKien.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\HoangTrieu_TrucTinh.txt" />
+     <None Include="Assets\Anh Dao\Bãi đá Núi Le\BaiDaNuiLe.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\AnhTaiNguyen.txt" />
+     <None Include="Assets\Anh Dao\Đảo Trường Sa\DaoTruongSa.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\GiaoThuongVanTaiBien.txt" />
+     <None Include="Assets\Tuan\DOTween\readme.txt" />
+     <None Include="Assets\Anh Dao\Đảo Nam Yết\DaoNamYet.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\DaiNamThucLucChinhBien.txt" />
+     <None Include="Assets\Anh Dao\Đảo Sơn Ca\DaoSonCa.txt" />
+     <None Include="Assets\Realtime Reflections\Readme.txt" />
+     <None Include="Assets\Tuan\DOTween\DOTween50.xml" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\ThienNamTuChiLoDoThutxt.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Anh Dao\Đảo Song Tử Tây\DaoSongTuTay.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Anh Dao\Bãi Đá Tây\BaiDaTay.txt" />
+     <None Include="Assets\Anh Dao\Bãi đá lớn\BaiDaLon.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\PhapdungBiaChuQuyen.txt" />
+     <None Include="Assets\Anh Dao\Đảo Trường Sa Đông\DaoTruongSaDong.txt" />
+     <None Include="Assets\Anh Dao\Bãi đá Thị\BaiDaThi.txt" />
+     <None Include="Assets\Anh Dao\Bãi đá Tiên Nữ\BaiDaTienNU.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\BanDoAtlasTheGioi.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\BanDo_HangHai_ChauAu.txt" />
+     <None Include="Assets\Anh Dao\Bãi Đá Lát\BaiDaLat.txt" />
+     <None Include="Assets\Anh Dao\Đảo Sinh Tồn\DaoSinhTon.txt" />
+     <None Include="Assets\Realtime Reflections\Shaders\PlanarReflection.shader" />
+     <None Include="Assets\Anh Dao\Đảo An Bang\DaoAnBang.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\AnNam_DaiQuoc_HoaDo.txt" />
+     <None Include="Assets\Tuan\DOTween\DOTween46.xml" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\BanDo_HangHai_BDN.txt" />
+     <None Include="Assets\Tuan\DOTween\DOTween43.xml" />
+     <None Include="Assets\Anh Dao\Bãi đá thuyền chài\BaiDaThuyenChai.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Anh Dao\Đảo Phan Vinh\DaoPhanVinh.txt" />
+     <None Include="Assets\Anh Dao\Bãi đá Len Đao\BaiDaLenDao.txt" />
+     <None Include="Assets\Anh Dao\Đảo Sinh Tồn Đông\DaoSinhTonDong.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\Duso10.txt" />
+     <None Include="Assets\Anh Dao\Bãi đá colin\BaidaColin.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\CacHienVatThoiVietNamCongHoa.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\PhapThuoc.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\DaiNamThongNhatToanDo.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\AnhAnNinhQuocPhong.txt" />
+     <None Include="Assets\Anh truong sa\Text_MieuTa\VietNamCongHoa.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/Assets/Tuan/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/Assets/Tuan/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/Assets/Tuan/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/Example/Unity/NCKH_2015_TheMuseum/BaoTang/Assets/Tuan/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4717AAF1-1BA8-FD71-8FED-2599549C879A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

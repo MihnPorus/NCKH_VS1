@@ -1,0 +1,107 @@
+System:
+  OS: Windows 8.1  (6.3.9600) 64bit
+  CPU: Intel(R) Core(TM)2 Duo CPU E7300 @ 2.66GHz, count: 2
+  Physical RAM: 2038 MB
+  Addressable RAM: 2048 MB
+
+D3D9:
+  Renderer: Intel(R)  G35 Express Chipset Family (Microsoft Corporation - WDDM 1.1)
+  VendorID: 8086
+  Driver: igdumd32.dll 8.14.10.2697
+  VRAM: 64 (via DXGI)
+
+OpenGL:
+  Version: 1.1.0
+  Vendor: Microsoft Corporation
+  Renderer: GDI Generic
+  VRAM: 64 (via DXGI)
+  Extensions: GL_WIN_swap_hint GL_EXT_bgra GL_EXT_paletted_texture
+
+User locale: en-US
+System locale: en-US
+
+Running processes:
+LeapControlPanel.exe (4260)
+    path: C:\Program Files (x86)\Leap Motion\Core Services\LeapControlPanel.exe
+    company:  Leap Motion, Inc.
+    product:  Leap Motion Control Panel
+    filedesc: Leap Motion Control Panel
+    filever:  2.2.5.0
+    prodver:  2.2.5.0
+iTunesHelper.exe (4676)
+    path: C:\Program Files (x86)\iTunes\iTunesHelper.exe
+    company:  Apple Inc.
+    product:  iTunes
+    filedesc: iTunesHelper
+    filever:  12.0.1.26
+    prodver:  12.0.1.26
+chrome.exe (4008)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+chrome.exe (2876)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+chrome.exe (3624)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+chrome.exe (5968)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+chrome.exe (2592)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+chrome.exe (1920)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+chrome.exe (5872)
+    path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    company:  Google Inc.
+    product:  Google Chrome
+    filedesc: Google Chrome
+    filever:  42.0.2311.152
+    prodver:  42.0.2311.152
+Unity.exe (4232)
+    path: C:\Program Files (x86)\Unity\Editor\Unity.exe
+    company:  Unity Technologies ApS
+    product:  Unity
+    filedesc: Unity Editor
+    filever:  4.6.0.47091
+    prodver:  4.6.0.47091
+UnityShaderCompiler.exe (4016)
+    path: C:\Program Files (x86)\Unity\Editor\Data\Tools\UnityShaderCompiler.exe
+    company:  
+    product:  
+    filedesc: 
+    filever:  0.0.0.0
+    prodver:  0.0.0.0
+UnityBugReporter.exe (2684)
+    path: C:\Program Files (x86)\Unity\Editor\UnityBugReporter.exe
+    company:  Unity Technologies ApS
+    product:  Unity Bug Reporter
+    filedesc: Unity Bug Reporter
+    filever:  4.6.0.47091
+    prodver:  4.6.0.47091

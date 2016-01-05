@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefab\ViewInstruction.cs">
+    <Files>
+      <File FileName="Assets\Prefab\ViewInstruction.cs" Line="29" Column="23" />
+      <File FileName="Assets\Script\View2DNew\Script\View2DNew.cs" Line="133" Column="26" />
+      <File FileName="Assets\Script\Map\ViewDaoNew.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Map\BandoCacDao.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Map\DaoTruongSa.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Auto\AutoMoveSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\View2DNew\Script\PanelView.cs" Line="1" Column="1" />
+      <File FileName="Assets\Anh truong sa\Text_MieuTa\PhapdungBiaChuQuyen.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
